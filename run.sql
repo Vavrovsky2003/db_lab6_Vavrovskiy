@@ -6,7 +6,7 @@ SELECT * FROM destination_airport;
 --Виклик процедури
 CALL get_info(2336);
 
---Виклик тригера
+--Виклик тригера та перевірка таблиць
 INSERT INTO Airline(IATA_code, Name)
 VALUES('VV','Viktor Vavrovskiy Inc.');
 SELECT * FROM Airline;
