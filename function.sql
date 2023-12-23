@@ -1,4 +1,4 @@
---Функція, яка видаляє із таблиць Origin_Airport аеропорти, які не приймали, та із таблиці Destination_Airport аеропорти, які не відправляли жоден літак
+--Функція, яка видаляє із таблиць Origin_Airport аеропорти, які не відправляли, та із таблиці Destination_Airport аеропорти, які не приймали жоден літак
 
 DROP FUNCTION IF EXISTS delete_airports();
 CREATE OR REPLACE FUNCTION delete_airports() RETURNS void
