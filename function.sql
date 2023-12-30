@@ -9,6 +9,6 @@ BEGIN
    WHERE Origin_Airport IN
      (SELECT Airport_id FROM Airport WHERE state='AK')
 	 OR Destination_Airport IN 
-	 (SELECT Airport_id FROM Airport WHERE state='AK');
+	   (SELECT Airport_id FROM Airport WHERE state='AK');
 END;
 $$;
