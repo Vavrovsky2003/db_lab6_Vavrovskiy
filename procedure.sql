@@ -1,4 +1,4 @@
---Створити процедуру get_info(flight_number_arg), яка надає інформацію (IATA-коди) про пункт відпрвалення, пункт призначення та авіаперевізника, вказаного в аргументі номера рейса.
+--Процедура get_info(flight_number_arg), яка надає інформацію (IATA-коди) про пункт відпрвалення, пункт призначення та авіаперевізника, вказаного в аргументі номера рейса.
 DROP PROCEDURE IF EXISTS get_info(integer);
 CREATE OR REPLACE PROCEDURE get_info(flight_number_arg integer)
 LANGUAGE plpgsql
